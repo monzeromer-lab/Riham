@@ -1,0 +1,8 @@
+<h2>Top Heros</h2>
+<div *ngIf="model"> <button (click)="Model()"> model </button></div>
+<p (click)="Model()"> hola </p>
+<div class="heros-menu">
+  <a *ngFor="let hero of heros" routerLink="/details/{{ hero.id }}">
+    {{ hero.name }}
+  </a>
+</div>
