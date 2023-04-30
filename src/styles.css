@@ -6,6 +6,13 @@ app-root {
   height: 100vh;
 }
 
+input {
+  border-radius: 4px;
+  padding: 3px;
+  border-style:inset;
+  margin-left: 3px;
+}
+
 .page {
   width: 85%;
   padding: 10px;
@@ -14,8 +21,7 @@ app-root {
 h1 {
   color: #369;
   font-family: lexend;
-  font-weight: bold;
-  font-size: 250%;
+  font-size: 200%;
 }
 
 h2,
@@ -35,7 +41,9 @@ body {
 app-navbar {
   width: 15%;
   padding: 20px;
-  background-color: #aaa;
+  background-color: #404E68;
+
+  /* background-image: linear-gradient(to left top, #404E68 0%, #202734 40%); */
 }
 
 body,
@@ -72,4 +80,9 @@ button:disabled {
 
 * {
   font-family: lexend;
+}
+
+p{
+  color: black;
+  font-weight: 400;
 }

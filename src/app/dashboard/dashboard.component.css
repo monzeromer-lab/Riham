@@ -1,42 +1,30 @@
-h2 {
-  text-align: center;
-}
-
-.heros-menu {
-  padding: 0;
-  margin: auto;
-  max-width: 1000px;
-
+.cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: flex-start;
-  align-items: flex-start;
 }
 
-a {
-  background-color: #3f525c;
-  border-radius: 2px;
-  padding: 1rem;
-  font-size: 1.2rem;
-  text-decoration: none;
-  display: inline-block;
-  color: #fff;
-  text-align: center;
-  width: 100%;
-  min-width: 70px;
-  margin: 5rem auto;
-  box-sizing: border-box;
+.card {
+  border-radius: 4px;
+  background-color: #404E68;
+  padding: 10px;
+  width: 130px;
+  box-shadow: 1.5px 1.5px 9px #000;
+  margin: 10px;
 }
 
-@media (min-width: 600px) {
-  a {
-    width: 18%;
-    box-sizing: content-box;
-  }
+.title{
+  color: white;
+  font-size: large;
+  margin-top: 1px;
 }
 
-a:hover {
-  background-color: #000;
+.value{
+  color: white;
+  font-size: medium;
+  font-weight: 300;
+}
+
+.pink {
+  background-image: linear-gradient(to left top, #F16595 0%, #E52466 90%);
 }
