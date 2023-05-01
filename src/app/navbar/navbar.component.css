@@ -1,6 +1,6 @@
 /*  */
 .logobox {
-height: 50px;
+  height: 50px;
 }
 
 h1 {
@@ -23,6 +23,9 @@ a {
   padding: 0.3em;
   height: 1.4em;
   border-radius: 4px;
+  /* border-color: white;
+  border-width: 1px;
+  border-style: solid; */
   display: block;
 }
 

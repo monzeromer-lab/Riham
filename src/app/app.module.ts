@@ -13,7 +13,12 @@ import { ProductsComponent } from './products/products.component';
 import { OrdersComponent } from './orders/orders.component';
 import { IssuesComponent } from './issues/issues.component';
 import { AccountsComponent } from './accounts/accounts.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BarComponent } from './bar/bar.component';
+import { NgChartsModule } from 'ng2-charts';
+import { YearSellsComponent } from './year-sells/year-sells.component';
+import { MonthSellsComponent } from './month-sells/month-sells.component';
+
 
 @NgModule({
   declarations: [
@@ -28,12 +33,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
     OrdersComponent,
     IssuesComponent,
     AccountsComponent,
+    BarComponent,
+    YearSellsComponent,
+    MonthSellsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgChartsModule,
+    //@ts-ignore
+    NgChartsModule.forRoot({defaults: {responsive: false}})
   ],
   providers: [],
   bootstrap: [AppComponent]
