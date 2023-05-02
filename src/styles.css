@@ -86,3 +86,11 @@ p{
   color: black;
   font-weight: 400;
 }
+
+@media only screen and (max-width: 600px) {
+app-navbar {
+  width: 6%;
+  background-color: white;
+  overflow-y: scroll;
+}
+}

@@ -53,7 +53,8 @@ export class MonthSellsComponent {
   };
 
   public lineChartOptions: ChartOptions = {
-    responsive: false,
+    responsive: true,
+    aspectRatio: 1
   };
   public lineChartColors: Color[] = ['blue'];
   public lineChartLegend = true;
