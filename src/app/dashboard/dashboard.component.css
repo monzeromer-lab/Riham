@@ -1,10 +1,16 @@
+.dashboard {
+  position: relative;
+}
 .cards {
+  /* margin-top: 2.5rem; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding-top: 5px;
 }
-
+app-bar {
+  display: none;
+}
 .card {
   border-radius: 4px;
   background-color: #404e68;
@@ -313,15 +319,15 @@ tbody tr:hover {
 
 .issues {
   margin-left: 0px;
-  width: 320px;
+  width: 310px;
 }
 
 .orders {
-  width: 300px;
+  width: 310px;
 }
 
 .stock {
-  width: 300px;
+  width: 310px;
 }
 
 .content {
@@ -394,6 +400,14 @@ tbody tr:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  app-bar {
+    display: flex;
+    /* position: fixed; */
+    flex-grow: 5;
+  }
+  .cards {
+    margin-top: 2.5em;
+  }
   .card {
     width: 100px;
   }

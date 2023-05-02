@@ -1,0 +1,21 @@
+app-bar {
+    display: none;
+}
+.accounts {
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    app-bar {
+      display: flex;
+      /* position: fixed; */
+      flex-grow: 5;
+    }
+    .accounts {
+    }
+
+    .account-form {
+        margin-top: 2.5em;
+
+    }
+}

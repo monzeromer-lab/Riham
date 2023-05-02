@@ -1,278 +1,280 @@
-<!-- <app-bar [title]="page"></app-bar> -->
+<div class="dashboard">
+  <app-bar [title]="page"></app-bar>
 
-<div class="cards">
-  <div class="card pink">
-    <h1 class="title">Earnings</h1>
-    <p class="value"><span class="curren">$</span>12394094</p>
+  <div class="cards">
+    <div class="card pink">
+      <h1 class="title">Earnings</h1>
+      <p class="value"><span class="curren">$</span>12394094</p>
+    </div>
+  
+    <div class="card">
+      <h1 class="title">Orders</h1>
+      <p class="value">94</p>
+    </div>
+  
+    <div class="card">
+      <h1 class="title">Sells</h1>
+      <p class="value">4094</p>
+    </div>
+  
+    <div class="card">
+      <h1 class="title">Stock</h1>
+      <p class="value">94094</p>
+    </div>
   </div>
-
-  <div class="card">
-    <h1 class="title">Orders</h1>
-    <p class="value">94</p>
+  
+  <div class="charts">
+    <div class="year">
+      <h2 class="latest">This year sales report</h2>
+      <app-year-sells></app-year-sells>
+    </div>
+    <div class="month">
+      <h2 class="latest">This month sales report</h2>
+      <app-month-sells></app-month-sells>
+    </div>
   </div>
-
-  <div class="card">
-    <h1 class="title">Sells</h1>
-    <p class="value">4094</p>
+  
+  <div class="latestSells">
+    <h2 class="latest">Latest Sells</h2>
+    <table>
+      <thead>
+        <tr class="table100-head">
+          <th class="column1">ID</th>
+          <th class="column2">Branch Name</th>
+          <th class="column3">Costumer Name</th>
+          <th class="column4">Phone Number</th>
+          <th class="column5">Address</th>
+          <th class="column6">View</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="column1">1</td>
+          <td class="column2">Random Name</td>
+          <td class="column3">Ahmed Ali</td>
+          <td class="column4">+249123456789</td>
+          <td class="column5">Khartom Sudan</td>
+          <td class="column6"><a class="view">View this sell</a></td>
+        </tr>
+        <tr>
+          <td class="column1">2</td>
+          <td class="column2">Random Name</td>
+          <td class="column3">Ahmed Ali</td>
+          <td class="column4">+249123456789</td>
+          <td class="column5">Khartom Sudan</td>
+          <td class="column6"><a class="view">View this sell</a></td>
+        </tr>
+        <tr>
+          <td class="column1">3</td>
+          <td class="column2">Random Name</td>
+          <td class="column3">Ahmed Ali</td>
+          <td class="column4">+249123456789</td>
+          <td class="column5">Khartom Sudan</td>
+          <td class="column6"><a class="view">View this sell</a></td>
+        </tr>
+        <tr>
+          <td class="column1">4</td>
+          <td class="column2">Random Name</td>
+          <td class="column3">Ahmed Ali</td>
+          <td class="column4">+249123456789</td>
+          <td class="column5">Khartom Sudan</td>
+          <td class="column6"><a class="view">View this sell</a></td>
+        </tr>
+        <tr>
+          <td class="column1">5</td>
+          <td class="column2">Random Name</td>
+          <td class="column3">Ahmed Ali</td>
+          <td class="column4">+249123456789</td>
+          <td class="column5">Khartom Sudan</td>
+          <td class="column6"><a class="view">View this sell</a></td>
+        </tr>
+        <tr>
+          <td class="column1">6</td>
+          <td class="column2">Random Name</td>
+          <td class="column3">Ahmed Ali</td>
+          <td class="column4">+249123456789</td>
+          <td class="column5">Khartom Sudan</td>
+          <td class="column6"><a class="view">View this sell</a></td>
+        </tr>
+        <tr>
+          <td class="column1">7</td>
+          <td class="column2">Random Name</td>
+          <td class="column3">Ahmed Ali</td>
+          <td class="column4">+249123456789</td>
+          <td class="column5">Khartom Sudan</td>
+          <td class="column6"><a class="view">View this sell</a></td>
+        </tr>
+        <tr>
+          <td class="column1">8</td>
+          <td class="column2">Random Name</td>
+          <td class="column3">Ahmed Ali</td>
+          <td class="column4">+249123456789</td>
+          <td class="column5">Khartom Sudan</td>
+          <td class="column6"><a class="view">View this sell</a></td>
+        </tr>
+        <tr>
+          <td class="column1">9</td>
+          <td class="column2">Random Name</td>
+          <td class="column3">Ahmed Ali</td>
+          <td class="column4">+249123456789</td>
+          <td class="column5">Khartom Sudan</td>
+          <td class="column6"><a class="view">View this sell</a></td>
+        </tr>
+        <tr>
+          <td class="column1">10</td>
+          <td class="column2">Random Name</td>
+          <td class="column3">Ahmed Ali</td>
+          <td class="column4">+249123456789</td>
+          <td class="column5">Khartom Sudan</td>
+          <td class="column6"><a class="view">View this sell</a></td>
+        </tr>
+        <tr>
+          <td class="column1">11</td>
+          <td class="column2">Random Name</td>
+          <td class="column3">Ahmed Ali</td>
+          <td class="column4">+249123456789</td>
+          <td class="column5">Khartom Sudan</td>
+          <td class="column6"><a class="view">View this sell</a></td>
+        </tr>
+        <tr>
+          <td class="column1">12</td>
+          <td class="column2">Random Name</td>
+          <td class="column3">Ahmed Ali</td>
+          <td class="column4">+249123456789</td>
+          <td class="column5">Khartom Sudan</td>
+          <td class="column6"><a class="view">View this sell</a></td>
+        </tr>
+        <tr>
+          <td class="column1">13</td>
+          <td class="column2">Random Name</td>
+          <td class="column3">Ahmed Ali</td>
+          <td class="column4">+249123456789</td>
+          <td class="column5">Khartom Sudan</td>
+          <td class="column6"><a class="view">View this sell</a></td>
+        </tr>
+        <tr>
+          <td class="column1">14</td>
+          <td class="column2">Random Name</td>
+          <td class="column3">Ahmed Ali</td>
+          <td class="column4">+249123456789</td>
+          <td class="column5">Khartom Sudan</td>
+          <td class="column6"><a class="view">View this sell</a></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-
-  <div class="card">
-    <h1 class="title">Stock</h1>
-    <p class="value">94094</p>
-  </div>
-</div>
-
-<div class="charts">
-  <div class="year">
-    <h2 class="latest">This year sales report</h2>
-    <app-year-sells></app-year-sells>
-  </div>
-  <div class="month">
-    <h2 class="latest">This month sales report</h2>
-    <app-month-sells></app-month-sells>
-  </div>
-</div>
-
-<div class="latestSells">
-  <h2 class="latest">Latest Sells</h2>
-  <table>
-    <thead>
-      <tr class="table100-head">
-        <th class="column1">ID</th>
-        <th class="column2">Branch Name</th>
-        <th class="column3">Costumer Name</th>
-        <th class="column4">Phone Number</th>
-        <th class="column5">Address</th>
-        <th class="column6">View</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="column1">1</td>
-        <td class="column2">Random Name</td>
-        <td class="column3">Ahmed Ali</td>
-        <td class="column4">+249123456789</td>
-        <td class="column5">Khartom Sudan</td>
-        <td class="column6"><a class="view">View this sell</a></td>
-      </tr>
-      <tr>
-        <td class="column1">2</td>
-        <td class="column2">Random Name</td>
-        <td class="column3">Ahmed Ali</td>
-        <td class="column4">+249123456789</td>
-        <td class="column5">Khartom Sudan</td>
-        <td class="column6"><a class="view">View this sell</a></td>
-      </tr>
-      <tr>
-        <td class="column1">3</td>
-        <td class="column2">Random Name</td>
-        <td class="column3">Ahmed Ali</td>
-        <td class="column4">+249123456789</td>
-        <td class="column5">Khartom Sudan</td>
-        <td class="column6"><a class="view">View this sell</a></td>
-      </tr>
-      <tr>
-        <td class="column1">4</td>
-        <td class="column2">Random Name</td>
-        <td class="column3">Ahmed Ali</td>
-        <td class="column4">+249123456789</td>
-        <td class="column5">Khartom Sudan</td>
-        <td class="column6"><a class="view">View this sell</a></td>
-      </tr>
-      <tr>
-        <td class="column1">5</td>
-        <td class="column2">Random Name</td>
-        <td class="column3">Ahmed Ali</td>
-        <td class="column4">+249123456789</td>
-        <td class="column5">Khartom Sudan</td>
-        <td class="column6"><a class="view">View this sell</a></td>
-      </tr>
-      <tr>
-        <td class="column1">6</td>
-        <td class="column2">Random Name</td>
-        <td class="column3">Ahmed Ali</td>
-        <td class="column4">+249123456789</td>
-        <td class="column5">Khartom Sudan</td>
-        <td class="column6"><a class="view">View this sell</a></td>
-      </tr>
-      <tr>
-        <td class="column1">7</td>
-        <td class="column2">Random Name</td>
-        <td class="column3">Ahmed Ali</td>
-        <td class="column4">+249123456789</td>
-        <td class="column5">Khartom Sudan</td>
-        <td class="column6"><a class="view">View this sell</a></td>
-      </tr>
-      <tr>
-        <td class="column1">8</td>
-        <td class="column2">Random Name</td>
-        <td class="column3">Ahmed Ali</td>
-        <td class="column4">+249123456789</td>
-        <td class="column5">Khartom Sudan</td>
-        <td class="column6"><a class="view">View this sell</a></td>
-      </tr>
-      <tr>
-        <td class="column1">9</td>
-        <td class="column2">Random Name</td>
-        <td class="column3">Ahmed Ali</td>
-        <td class="column4">+249123456789</td>
-        <td class="column5">Khartom Sudan</td>
-        <td class="column6"><a class="view">View this sell</a></td>
-      </tr>
-      <tr>
-        <td class="column1">10</td>
-        <td class="column2">Random Name</td>
-        <td class="column3">Ahmed Ali</td>
-        <td class="column4">+249123456789</td>
-        <td class="column5">Khartom Sudan</td>
-        <td class="column6"><a class="view">View this sell</a></td>
-      </tr>
-      <tr>
-        <td class="column1">11</td>
-        <td class="column2">Random Name</td>
-        <td class="column3">Ahmed Ali</td>
-        <td class="column4">+249123456789</td>
-        <td class="column5">Khartom Sudan</td>
-        <td class="column6"><a class="view">View this sell</a></td>
-      </tr>
-      <tr>
-        <td class="column1">12</td>
-        <td class="column2">Random Name</td>
-        <td class="column3">Ahmed Ali</td>
-        <td class="column4">+249123456789</td>
-        <td class="column5">Khartom Sudan</td>
-        <td class="column6"><a class="view">View this sell</a></td>
-      </tr>
-      <tr>
-        <td class="column1">13</td>
-        <td class="column2">Random Name</td>
-        <td class="column3">Ahmed Ali</td>
-        <td class="column4">+249123456789</td>
-        <td class="column5">Khartom Sudan</td>
-        <td class="column6"><a class="view">View this sell</a></td>
-      </tr>
-      <tr>
-        <td class="column1">14</td>
-        <td class="column2">Random Name</td>
-        <td class="column3">Ahmed Ali</td>
-        <td class="column4">+249123456789</td>
-        <td class="column5">Khartom Sudan</td>
-        <td class="column6"><a class="view">View this sell</a></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<div class="summuries">
-  <div class="details-card issues">
-    <h2 class="latest">Issues</h2>
-    <div class="content">
-      <div class="detail-item">
-        <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
-        <div class="detail-stuff">
-          <h2 class="detail-title">Alrikaby Ice Cream</h2>
-          <p class="detail-message">A client complained about a broken pump</p>
-          <span class="detail-time">5 mins ago</span>
+  
+  <div class="summuries">
+    <div class="details-card issues">
+      <h2 class="latest">Issues</h2>
+      <div class="content">
+        <div class="detail-item">
+          <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
+          <div class="detail-stuff">
+            <h2 class="detail-title">Alrikaby Ice Cream</h2>
+            <p class="detail-message">A client complained about a broken pump</p>
+            <span class="detail-time">5 mins ago</span>
+          </div>
         </div>
-      </div>
-
-      <div class="detail-item">
-        <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
-        <div class="detail-stuff">
-          <h2 class="detail-title">Alrikaby Ice Cream</h2>
-          <p class="detail-message">A client complained about a broken pump</p>
-          <span class="detail-time">5 mins ago</span>
+  
+        <div class="detail-item">
+          <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
+          <div class="detail-stuff">
+            <h2 class="detail-title">Alrikaby Ice Cream</h2>
+            <p class="detail-message">A client complained about a broken pump</p>
+            <span class="detail-time">5 mins ago</span>
+          </div>
         </div>
-      </div>
-
-      <div class="detail-item">
-        <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
-        <div class="detail-stuff">
-          <h2 class="detail-title">Alrikaby Ice Cream</h2>
-          <p class="detail-message">A client complained about a broken pump</p>
-          <span class="detail-time">5 mins ago</span>
+  
+        <div class="detail-item">
+          <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
+          <div class="detail-stuff">
+            <h2 class="detail-title">Alrikaby Ice Cream</h2>
+            <p class="detail-message">A client complained about a broken pump</p>
+            <span class="detail-time">5 mins ago</span>
+          </div>
         </div>
-      </div>
-
-      <div class="detail-item">
-        <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
-        <div class="detail-stuff">
-          <h2 class="detail-title">Alrikaby Ice Cream</h2>
-          <p class="detail-message">A client complained about a broken pump</p>
-          <span class="detail-time">5 mins ago</span>
+  
+        <div class="detail-item">
+          <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
+          <div class="detail-stuff">
+            <h2 class="detail-title">Alrikaby Ice Cream</h2>
+            <p class="detail-message">A client complained about a broken pump</p>
+            <span class="detail-time">5 mins ago</span>
+          </div>
         </div>
-      </div>
-
-      <div class="detail-item">
-        <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
-        <div class="detail-stuff">
-          <h2 class="detail-title">Alrikaby Ice Cream</h2>
-          <p class="detail-message">A client complained about a broken pump</p>
-          <span class="detail-time">5 mins ago</span>
+  
+        <div class="detail-item">
+          <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
+          <div class="detail-stuff">
+            <h2 class="detail-title">Alrikaby Ice Cream</h2>
+            <p class="detail-message">A client complained about a broken pump</p>
+            <span class="detail-time">5 mins ago</span>
+          </div>
         </div>
-      </div>
-
-      <div class="detail-item">
-        <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
-        <div class="detail-stuff">
-          <h2 class="detail-title">Alrikaby Ice Cream</h2>
-          <p class="detail-message">A client complained about a broken pump</p>
-          <span class="detail-time">5 mins ago</span>
+  
+        <div class="detail-item">
+          <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
+          <div class="detail-stuff">
+            <h2 class="detail-title">Alrikaby Ice Cream</h2>
+            <p class="detail-message">A client complained about a broken pump</p>
+            <span class="detail-time">5 mins ago</span>
+          </div>
         </div>
-      </div>
-
-      <div class="detail-item">
-        <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
-        <div class="detail-stuff">
-          <h2 class="detail-title">Alrikaby Ice Cream</h2>
-          <p class="detail-message">A client complained about a broken pump</p>
-          <span class="detail-time">5 mins ago</span>
+  
+        <div class="detail-item">
+          <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
+          <div class="detail-stuff">
+            <h2 class="detail-title">Alrikaby Ice Cream</h2>
+            <p class="detail-message">A client complained about a broken pump</p>
+            <span class="detail-time">5 mins ago</span>
+          </div>
         </div>
-      </div>
-
-      <div class="detail-item">
-        <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
-        <div class="detail-stuff">
-          <h2 class="detail-title">Alrikaby Ice Cream</h2>
-          <p class="detail-message">A client complained about a broken pump</p>
-          <span class="detail-time">5 mins ago</span>
+  
+        <div class="detail-item">
+          <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
+          <div class="detail-stuff">
+            <h2 class="detail-title">Alrikaby Ice Cream</h2>
+            <p class="detail-message">A client complained about a broken pump</p>
+            <span class="detail-time">5 mins ago</span>
+          </div>
         </div>
-      </div>
-
-      <div class="detail-item">
-        <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
-        <div class="detail-stuff">
-          <h2 class="detail-title">Alrikaby Ice Cream</h2>
-          <p class="detail-message">A client complained about a broken pump</p>
-          <span class="detail-time">5 mins ago</span>
+  
+        <div class="detail-item">
+          <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
+          <div class="detail-stuff">
+            <h2 class="detail-title">Alrikaby Ice Cream</h2>
+            <p class="detail-message">A client complained about a broken pump</p>
+            <span class="detail-time">5 mins ago</span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="details-card orders">
-    <h2 class="latest">Orders</h2>
-    <div class="content">
-      <div class="detail-item">
-        <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
-        <div class="detail-stuff">
-          <h2 class="detail-title">Alrikaby Ice Cream</h2>
-          <!-- <p class="detail-message">A client complained about a broken pump</p> -->
-          <span class="detail-time">5 mins ago</span>
+  
+    <div class="details-card orders">
+      <h2 class="latest">Orders</h2>
+      <div class="content">
+        <div class="detail-item">
+          <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset="" /></span>
+          <div class="detail-stuff">
+            <h2 class="detail-title">Alrikaby Ice Cream</h2>
+            <!-- <p class="detail-message">A client complained about a broken pump</p> -->
+            <span class="detail-time">5 mins ago</span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="details-card stock">
-    <h2 class="latest">Stock</h2>
-    <div class="content">
-      <div class="detail-item">
-        <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset=""></span>
-        <div class="detail-stuff">
-          <h2 class="detail-title">Product name</h2>
-          <!-- <p class="detail-message">A client complained about a broken pump</p> -->
-          <span class="detail-time">5 Units</span>
+  
+    <div class="details-card stock">
+      <h2 class="latest">Stock</h2>
+      <div class="content">
+        <div class="detail-item">
+          <span class="detail-icon"><img src="../../assets/personIcon.svg" alt="" srcset=""></span>
+          <div class="detail-stuff">
+            <h2 class="detail-title">Product name</h2>
+            <!-- <p class="detail-message">A client complained about a broken pump</p> -->
+            <span class="detail-time">5 Units</span>
+          </div>
         </div>
       </div>
     </div>
