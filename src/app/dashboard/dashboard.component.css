@@ -8,9 +8,12 @@
   flex-wrap: wrap;
   padding-top: 5px;
 }
+
+
 app-bar {
   display: none;
 }
+
 .card {
   border-radius: 4px;
   background-color: #404e68;

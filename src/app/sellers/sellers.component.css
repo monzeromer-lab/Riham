@@ -1,0 +1,30 @@
+.pink {
+  background-image: linear-gradient(to left top, #f16595 0%, #e52466 90%);
+  color: white;
+  text-decoration: none;
+}
+
+.sellers-searchBox {
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  background-color: white;
+  border-radius: 4px;
+}
+
+.search {
+  padding: 5px;
+}
+
+.submit {
+  margin-left: 5px;
+  border: black solid 1px;
+  cursor: pointer;
+}
+
+.new {
+  margin-left: 5px;
+}
